@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:white;
+}
+header{
+    background-image: url("img/df\ \(1\).jpg");
+    padding-bottom: 100px;
+    background-position-y: -60px;
+    background-position-x: -20px;
+    background-repeat: no-repeat;
+    background-size: 102% 111%;
+    
+   
+    
+}
+.sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left:150px;
+    margin-right: 150px;
+    padding-top: 20px;
+}
+ul{
+    list-style: none;
+    
+    
+}
+li{
+    padding-left: 25px;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+.discord{
+    position: absolute;
+    left: 240px;
+    top: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+}
+.abrirDc{
+    border-radius: 20px;
+    padding: 10px;
+    border:none;
+    width: 120px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.abrirDc:hover{
+    color: rgb(72, 72, 215) ;
+    box-shadow: 0 0 1em black;
+}
+.sec2{
+    text-align: center;
+    margin-top: 100px;
+}
+.titulo1{
+    margin-bottom: 20px;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+.p1{
+    color: white;
+    width: 670px;
+    margin: auto;
+    font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.baixar{
+    padding: 15px;
+    border-radius: 25px;
+    width: 240px;
+    border: none;
+    transition: 0.5s;
+    font-weight: bold;
+    cursor: pointer;
+}
+.baixar:hover > .icon{
+   opacity: 0;
+
+
+}
+.baixar:hover{
+    color: rgb(72, 72, 215) ;
+    box-shadow: 0 0 1em black;
+}
+.icon{
+    position: absolute;
+    left: 420px;
+    transition: 0.5s;
+}
+.icon2{
+    position: absolute;
+    left: 420px;
+}
+.abra{
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 47, 47);
+    width: 270px;
+    margin-left: 15px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.abra:hover{
+    box-shadow: 0 0 1em black;
+    background-color: rgb(76, 76, 76);
+
+}
+nav{
+    margin-left: 40px;
+    margin-top: -60px;
+    
+}
+.imig{
+    width: 75%;
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-right: -50px;
+    
+}
+.sec3{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(244, 237, 237);
+    padding-top: 50px;
+    margin-bottom: 150px;
+    transition: 1s;
+   
+}
+.titulo3{
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 45px;
+    color: rgb(40, 34, 34);
+    margin-bottom: 20px;
+    line-height: 1.3;            
+    
+
+}
+.texto3{
+    font-size: 17px;
+    line-height: 1.6;
+
+}
+.artigo3{
+    margin-right: 10px;
+    margin-left: 90px;
+    padding-bottom: 100px;
+    
+}
+.sec4{
+    display: flex;
+    flex-direction: row;
+    transition: 1s;
+    
+}
+.titulo4{
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(40, 34, 34);
+    line-height: 1.3; 
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+.texto4{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-left: 200px;
+}
+.img4{
+width: 75%;
+margin-top: -60px;
+margin-left: 70px;
+}
+.sec5{
+display: flex;
+flex-direction: row;
+margin-top: 230px;
+transition: 1s;
+}
+.titulo5{
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(40, 34, 34);
+    line-height: 1.3; 
+    margin-bottom: 20px;
+    margin-left: -50px;
+}
+.texto5{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-left: -50px;
+
+}
+.img5{
+width: 65%;
+margin-top: -40px;
+padding-left: 160px;
+}
+.artigo6{
+margin-top: 120px;
+padding-top: 80px;
+
+}
+.sec6{
+background-color: rgb(244, 237, 237);
+}
+.titulo6{
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: 'Archivo Black', sans-serif;
+    color: rgb(40, 34, 34);
+    line-height: 1; 
+    word-spacing: -5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.texto6{
+font-size: 17px;
+    line-height: 1.6;
+    text-align: center;
+}
+.artigo7{
+text-align: center;
+margin-bottom: 40px;
+}
+.img6{
+width: 72%;
+}
+.artigo8{
+text-align: center;
+position: relative;
+margin-bottom: 30px;
+
+
+}
+.img7{
+width: 35%;
+}
+.texto7{
+position: absolute;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+top: 22px;
+left: 460px;
+font-size: 24px;
+font-weight: bolder;
+}
+.artigo9{
+text-align: center;
+margin-bottom: 50px;
+}
+.botao7{
+text-align: right ;
+padding: 22px;
+font-size: 14px;
+border-radius: 25px;
+width: 220px;
+border: none;
+background-color: rgb(86, 86, 216);
+font-weight: bolder;
+color: white;
+position: relative;
+margin-bottom: 20px;
+transition: 0.2s;
+cursor: pointer;
+}
+.botao7:hover{
+box-shadow: 0 0 0.5em black;
+filter: invert(19%);
+
+}
+
+.icone7{
+position: absolute;
+left: 25px;
+top:15px
+
+}
+.btext{
+position: absolute;
+right: 25px;
+top: 15px;
+}
+.rodape{
+background-color: rgb(21, 20, 20);
+
+
+}
+.seta{
+width: 10px;
+cursor: pointer;
+}
+.meu{
+width: 155px;
+height: 100px;
+background-color: white;
+border-radius: 5px;
+position: absolute;
+top: -100px;
+left: -25px;
+opacity: 0;
+overflow-y: scroll;
+}
+.aparecer{
+opacity: 1;
+}
+.sec10{
+position: relative;
+padding-left: 200px;
+padding-top: 60px;
+padding-bottom: 140px;
+
+}
+.br{
+position: absolute;
+top: 2px;
+left: -25px;
+}
+.rolagem{
+position: relative;
+color: white;
+margin-left: 25px;
+
+
+}
+.titulo8{
+color: rgb(86, 86, 216);
+font-family: 'Archivo Black', sans-serif;
+line-height: 1;
+font-size: 30px;
+margin-bottom: 10px;
+}
+.twitter{
+padding-top:20px;
+position: absolute;
+left: -25px;
+}
+.instagram{
+padding-top:20px;
+padding-left: 20px;
+}
+.facebook{
+padding-left: 25px;
+}
+.youtube{
+padding-left: 25px;
+width: 22px;
+padding-top: 17px;
+position: absolute;
+
+}
+hr{
+position: absolute;
+top: -50px;
+width: 700px;
+right: 170px;
+}
+.artigo11{
+position: relative;
+}
+ul{
+display: flex;
+flex-direction: column;
+padding-top: 70px;
+padding-left: 20px;
+color: white;
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.item{
+
+padding-bottom: 15px;
+cursor: pointer;
+font-size: 12px;
+margin-left:55px;
+}
+.item:hover{
+    text-decoration: underline;
+}
+.sec14{
+display: flex;
+flex-direction: row;
+
+padding-bottom: 70px;
+
+
+}
+.titulinho{
+color: rgb(86, 86, 216);
+
+margin-left:55px;
+padding-bottom: 15px;
+cursor: default;
+font-size: 12px;
+}
+.rodape2{
+display: flex;
+flex-direction: row;
+
+}
+
+.separador{
+border: 1px solid rgb(86, 86, 216);
+width: 1040px;
+border-left: none;
+border-bottom: none;
+border-right: none;
+position: absolute;
+bottom: 40px;
+left: 180px;
+
+}
+.navegar{
+display: flex;
+flex-direction: row;
+
+}
+.sec16{
+position: relative;
+}
+.sec20{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+position: relative;
+padding-bottom: 74px;
+}
+.logo{
+position: absolute;
+left: 180px;
+bottom: 50px;
+}
+.discord2{
+position: absolute;
+left: 220px;
+bottom: 57px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+font-size: 18px;
+color: white;
+}
+.registrar{
+position: absolute;
+right: 90px;
+padding: 10px;
+border-radius: 20px;
+border: none;
+color: white;
+background-color: rgb(86, 86, 216);
+cursor: pointer;
+transition: 0.5s;
+bottom: 50px;
+}
+.registrar:hover{
+box-shadow: 0 0 0.5em black;
+filter: invert(19%);
+}
+.ingles{
+color: black;
+text-align: left;
+position: absolute;
+left: 25px;
+}
+.pais{
+position: relative;
+}
+.usa{
+position: absolute;
+left: -20px;
+top: 2px;
+}
+.pais{
+width: 140px;
+height: 30px;
+border-radius: 5px;
+padding-top: 5px;
+transition: 0.5s;
+cursor: pointer;
+}
+.pais:hover{
+background-color: rgb(206, 200, 200);
+
+}
+.invisivel{
+opacity: 0;
+}
+.visivel{
+opacity: 1;
+}
